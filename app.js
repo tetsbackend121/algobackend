@@ -6,6 +6,10 @@ app.get('/gil', (req, res) => {
     res.send('¡Hola Mundo gillll!');
 });
 
+app.get('/', (req, res) => {
+    res.send('putoooooooo holaa!');
+});
+
 app.listen(PORT, () => {
     console.log(`Servidor Express escuchando en el puerto ${PORT}`);
 });
