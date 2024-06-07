@@ -6,6 +6,10 @@ app.get('/gil', (req, res) => {
     res.send('¡Hjalacoioo!');
 });
 
+app.get('/mierda', (req, res) => {
+    res.send('cauqnsdnsdns');
+});
+
 app.get('/', (req, res) => {
     res.send('jalennnnn holaa!');
 });
